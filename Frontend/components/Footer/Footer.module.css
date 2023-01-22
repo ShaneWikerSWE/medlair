@@ -1,0 +1,31 @@
+.ml_footer {
+  border-top: 2px solid #005b81;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}
+.ml_footer h2 {
+  font-weight: bold;
+}
+.ml_footer h2 span {
+  color: #005f7d;
+}
+.ml_footer h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+.ml_footer .footer_social a {
+  color: #005f7d;
+  font-size: 40px;
+  margin-right: 5px;
+}
+.ml_footer .footer_sections div:not(:only-child) {
+  border-left: 1px solid #dbdbdb;
+}
+.ml_footer .footer_sections div a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+  font-size: 14px;
+  margin: 12px 0;
+}

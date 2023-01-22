@@ -1,0 +1,70 @@
+/*========================================
+Author       : Seif Ahmed
+Website      : www.seifahmed.com
+Email        : info@seifahmed.com
+==========================================*/
+
+:root {
+  /* Primary/main colors */
+  --clr-primary-1: #005f7d;
+  --linear-color: linear-gradient(288deg, #d6e5e8, #dcd9e4);
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Navbar */
+.navbar {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  background: none !important;
+  margin-bottom: 5px;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000 !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--clr-primary-1) !important;
+}
+
+.hcp-notify {
+  text-align: center;
+  font-size: 0.625rem;
+  border-bottom: 4px solid #a2b0ba;
+}
+.wb-logo {
+  text-align: center;
+}
+.wb-logo h1 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 45px;
+  margin: 15px 0 0 0;
+}
+.wb-logo h1 a {
+  text-decoration: none;
+  color: #000;
+}
+.wb-logo h1 span,
+.navbar-light .navbar-brand span {
+  color: var(--clr-primary-1);
+}
+/* Navbar */
+
+/* Modal */
+.modal-body a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 0;
+  color: #222;
+}
+/* Modal */

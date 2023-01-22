@@ -1,0 +1,19 @@
+.trending_article {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgb(98 120 141 / 20%);
+}
+.trending_article .index {
+  color: #d54c38;
+  font-size: 2.5rem;
+}
+.trending_article .title a {
+  text-decoration: none;
+  color: #333132;
+  font-weight: bold;
+}
+.trending_article .title a:hover {
+  color: #005b81;
+  transition: all 0.35s ease;
+}

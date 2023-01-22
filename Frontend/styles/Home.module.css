@@ -1,0 +1,147 @@
+/* Start Announce */
+.ml_anon {
+  background: linear-gradient(288deg, #d6e5e8, #dcd9e4);
+}
+.ml_anon .ml_anon_graphic {
+  padding: 40px 0;
+  background: url(/images/anon-user-graphic.webp) no-repeat 100% 100%;
+  background-size: 705px auto;
+}
+.anon_heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+.anon_heading span:nth-child(1) {
+  color: var(--clr-primary-1);
+}
+.anon_heading span:nth-child(2) {
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.ml_anon .ml_anon_graphic h2:nth-child(2) {
+  font-size: 25px;
+  margin: 20px 0;
+}
+.anon_newsletter input {
+  display: inline-block;
+  width: 70%;
+  border: none;
+  border-radius: 0;
+}
+.anon_newsletter button {
+  display: inline-block;
+  background-color: var(--clr-primary-1);
+  border: none;
+  border-radius: 0;
+  vertical-align: top;
+}
+/* End Announce */
+
+/* Start Featured News */
+.ml_featured_news {
+  padding: 30px 0;
+}
+.ml_featured_news h5 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.featured_article h5 {
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+.featured_article h5 a {
+  text-decoration: none;
+  color: #333132;
+}
+.featured_article h5 a:hover {
+  color: #005b81;
+  transition: all 0.35s ease;
+}
+.featured_article span {
+  color: #767674;
+  font-style: italic;
+  font-size: 13px;
+}
+.featured_article p {
+  color: #222;
+}
+/* End Featured News */
+
+/* Start Last News Section */
+.ml_latest_news {
+  padding: 30px 0;
+  border-top: 2px solid #e8e6e6;
+}
+.ml_latest_news h5 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.ml_latest_news h5 a {
+  font-size: 16px;
+  color: #005b81;
+  text-transform: none;
+  text-decoration: none;
+}
+/* End Last News Section */
+
+/* Start Trending Section */
+.ml_trending {
+  padding: 30px 0;
+  background: linear-gradient(90deg, #dbe5f0, #ebf3f5);
+}
+.ml_trending h5 {
+  background: url(/images/icon-trending-red.svg) no-repeat 1px 2px;
+  background-size: 33px auto;
+  padding-left: 40px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.ml_trending h5 span {
+  font-size: 16px;
+}
+/* End Trending Section */
+
+/* Start BMI Section */
+.ml_bmi {
+  padding: 30px 0;
+}
+.ml_bmi h5 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.ml_bmi form input {
+  margin: 15px 0;
+}
+/* End BMI Section */
+
+/* Start Founder Section */
+.ml_founder {
+  padding: 40px 0;
+  border-top: 2px solid #e8e6e6;
+}
+.ml_founder .founder_image {
+  display: inline-block;
+  margin-right: 15px;
+}
+.ml_founder .founder_image img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.ml_founder .founder_data {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ml_founder .founder_data h5 {
+  font-weight: bold;
+  color: #005b81;
+  margin: 0;
+}
+.ml_founder p {
+  margin-top: 15px;
+  color: #222;
+  font-size: 14px;
+}
+/* End Founder Section */

@@ -1,0 +1,26 @@
+.ml_article {
+  padding: 10px 0;
+}
+.ml_article h5 {
+  font-weight: bold;
+}
+.ml_article h5 a {
+  color: #212529;
+  text-decoration: none;
+}
+.ml_article p {
+  margin: 5px 0;
+  width: 70%;
+}
+.ml_article span {
+  font-style: italic;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #767674;
+}
+
+@media (max-width: 767px) {
+  .ml_article p {
+    width: 100%;
+  }
+}
